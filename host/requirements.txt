@@ -1,0 +1,7 @@
+# Linux 端依赖 (Ubuntu 22.04 / WSL2, Python >= 3.10)
+pyserial>=3.5          # 串口通信
+numpy>=1.24            # 参考分析器(FFT/统计)
+PyQt5>=5.15            # 上位机界面
+pyqtgraph>=0.13        # 实时波形/频谱绘制
+pymodbus>=3.5          # Modbus-TCP 寄存器服务器(网关模式)
+paho-mqtt>=1.6         # MQTT 发布(网关模式, 可选)
