@@ -5,7 +5,10 @@
 ## 目录
 ```
 stm32/           F407 固件(HAL + CMSIS-DSP)
-  llc?? no
+  ui/            LVGL 触摸屏 HMI
+  ai/            边缘AI 负载识别
+host/            Linux 上位机/网关/AI训练脚本
+docs/            设计/实施/HMI/企业级 手册(docx)
 ```
 详见仓库内各模块注释与配套设计文档。
 
